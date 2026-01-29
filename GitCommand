@@ -99,3 +99,15 @@
 3、删除远程错误分支 → git push origin --delete old_name
 
 4、关联上游 → git push -u origin new_name
+
+六、修改用户信息
+
+1、修改git全局的用户信息
+	git config --global user.name "Your Name"
+	git config --global user.email "your_email@example.com"
+
+2、修改当前仓库的用户信息
+	切换到当前仓库目录
+	git config user.name "Your Name"
+	git config user.email "your_email@example.com"
+
